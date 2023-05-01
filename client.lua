@@ -6,6 +6,7 @@ local selected_timecycle = "il"
 local selected_strength = 1
 
 timecycle_menu.Closed = function()
+    ClearTimecycleModifier()
     open = false
 end
 
